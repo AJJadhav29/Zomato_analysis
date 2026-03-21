@@ -92,7 +92,7 @@ REFERENCES restaurants(restaurant_id);
 ```
 ![ERD](https://github.com/AJJadhav29/Zomato_analysis/blob/main/ERD_of_zomato.png)
 
-** Data Import & Cleaning:-** Inserting the csv file data into the tables and then handling null values and ensuring data integrity.
+**Data Import & Cleaning:-** Inserting the csv file data into the tables and then handling null values and ensuring data integrity.
 
 **Business Problems and Key analyses:-** 
 

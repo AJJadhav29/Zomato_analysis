@@ -12,6 +12,10 @@ Time-series and growth queries analyze monthly sales trends, restaurant growth r
 
 Overall, the project demonstrates strong use of joins, window functions, CTEs, date/time logic, and conditional aggregation to answer realistic business questions for a food-delivery marketplace.
 
+<p align="center">
+  <img src="zomato-ft-760x570.png" width="700"/>
+</p>
+
 ## Project Structure
 
 **Database Setup:-** Creating the database for zomato and then creating required tables and adding the relationship into these tables

@@ -193,7 +193,7 @@ ORDER BY 3 DESC) as t1;
 SELECT *
 FROM(SELECT c.customer_name,
 	COUNT(*) as total_orders,
-	AVG(o.total_amount) AS average_order_value
+	ROUND(AVG(o.total_amount::numeric),2) AS average_order_value
 FROM customers AS c
 JOIN orders AS o
 ON o.customer_id = c.customer_id

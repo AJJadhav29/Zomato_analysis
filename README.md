@@ -616,7 +616,7 @@ GROUP BY 1;
 
 #### Page 1:- Revenue & Sales Overview
 - Provides a high-level snapshot of platform-wide financial performance.
-[Revenue & Sales Overview](https://github.com/AJJadhav29/Zomato_analysis/blob/main/)
+[Revenue & Sales Overview](https://github.com/AJJadhav29/Zomato_analysis/blob/main/revenue_sales_overview.JPG)
 
 **Key findings:-** 
 

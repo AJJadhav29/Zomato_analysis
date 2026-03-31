@@ -616,14 +616,15 @@ GROUP BY 1;
 
 #### Page 1:- Revenue & Sales Overview
 - Provides a high-level snapshot of platform-wide financial performance.
+- **Total Platform Revenue:** ₹3M+ across 5 cities.
+- **Top Performing City:** Mumbai at ₹1,517,450.
+- Visuals: KPI cards, Top 10 Restaurants bar chart, Monthly Revenue Trend (2023), Revenue by City breakdown.
+- City slicer allows filtering all visuals dynamically
 
 <p align="center">
   <img src="revenue_sales_overview.JPG" width="700"/>
 </p>
-**Total Platform Revenue:** ₹3M+ across 5 cities
-**Top Performing City:** Mumbai at ₹1,517,450
-Visuals: KPI cards, Top 10 Restaurants bar chart, Monthly Revenue Trend (2023), Revenue by City breakdown
-City slicer allows filtering all visuals dynamically
+
 
 **Key findings:-** 
 

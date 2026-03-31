@@ -686,7 +686,7 @@ GROUP BY 1;
 **Key Business Insights:-**
 Key Business Insights
 
-| # | Insight |
+|   | Insight |
 |---|---------|
 | 1 | Mumbai contributes ~47% of total platform revenue |
 | 2 | Platform avg delivery time (38.85 mins) exceeds target (34.22 mins) |

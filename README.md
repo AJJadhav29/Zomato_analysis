@@ -619,12 +619,44 @@ GROUP BY 1;
 - **Total Platform Revenue:** ₹3M+ across 5 cities.
 - **Top Performing City:** Mumbai at ₹1,517,450.
 - Visuals: KPI cards, Top 10 Restaurants bar chart, Monthly Revenue Trend (2023), Revenue by City breakdown.
-- City slicer allows filtering all visuals dynamically
+- City slicer allows filtering all visuals dynamically.
 
 <p align="center">
   <img src="revenue_sales_overview.JPG" width="700"/>
 </p>
 
+#### Page 2:- Customer Analytics
+- Deep dives into customer behavior, loyalty, and lifetime value.
+- **Total Customers:** 24 | **Avg Order Value:** ₹323.04.
+- **Top Customer:** Sneha Desai with ₹269.2K lifetime value.
+- Visuals: Top 10 Customers bar chart, Customer Spending vs Order Frequency scatter plot, Top 5 dishes by customer.
+- Key insight: Customers with 700+ orders consistently spend ₹240K–₹270K, confirming strong loyalty-spending relationship.
+
+<p align="center">
+  <img src="customer_analytics.JPG" width="700"/>
+</p>
+
+#### Page 3:- Delivery & Rider Performance
+- Evaluates individual rider efficiency, earnings, and customer ratings.
+- **Total Riders:** 15 | **Fastest:** 32.43 mins | **Slowest:** 51.78 mins.
+- **Platform Avg Delivery:** 38.85 mins vs 34.22 target.
+- Visuals: Gauge (delivery time vs target), Rider Efficiency vs Earnings scatter with quadrant lines, Platform Rating Distribution donut chart.
+- Key insight: Key insight: Star riders (top-left quadrant) deliver fastest AND earn most — identifying top performers.
+
+<p align="center">
+  <img src="Delivery_rider_performance.jpg" width="700"/>
+</p>
+
+#### Page 4:- Operations & Demand Analysis
+- Uncovers operational bottlenecks and seasonal demand patterns.
+- **Cancellation ratio dropped to 0%** in 2024 — major improvement.
+- **Mahesh Lunch Home, Mumbai** has highest undelivered orders (57).
+- Visuals: Cancellation Ratio 2023 vs 2024 clustered bar, Undelivered Orders by Restaurant, Top Dish Per Season, Monthly Sales Performance 2023.
+- Key insight: Spring dominates demand with Paneer Butter Masala leading at 218 orders.
+
+<p align="center">
+  <img src="operations_demand_analysis.jpg" width="700"/>
+</p>
 
 **Key findings:-** 
 

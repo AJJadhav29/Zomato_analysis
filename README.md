@@ -612,6 +612,31 @@ FROM year_table
 WHERE year = 2023
 GROUP BY 1;
 ```
+
+**Key findings:-** 
+
+#### Customer behavior
+- A small group of heavy users contributes a large share of total revenue, with some customers placing hundreds of orders and reaching very high lifetime value.
+- Many customers show strong activity in their first months and then slow down, and you can clearly identify customers who ordered in 2023 but became inactive in 2024.
+
+#### Restaurant performance
+- Revenue is highly concentrated in a few top restaurants in each city, while many others generate modest sales despite similar opening hours.
+- Certain restaurants suffer noticeably higher shares of undelivered or canceled orders, indicating operational or quality issues that directly impact lost revenue.
+
+#### Demand patterns
+- Orders peak in specific 2‑hour evening slots, confirming that demand is strongly time‑of‑day driven and should inform staffing and rider allocation.
+- Some dishes (for example biryanis, pizzas, and a few signature items) dominate both order volume and revenue, and several of them show clear seasonal spikes.
+- City‑level analysis shows a clear revenue hierarchy among cities, with a few markets driving most of the platform’s 2023 revenue.
+
+#### Delivery and riders
+- Average delivery times are generally within target windows, but a subset of riders consistently deliver faster than others, while a few lag behind the platform average.
+- Delivery failures cluster around specific time windows and restaurant–rider combinations, suggesting targeted process improvements could reduce cancellations.
+- Based on an 8% commission assumption, top riders earn significantly more in busy months and cities, reflecting both higher order density and their efficiency.
+
+#### Segmentation and growth
+- “Gold” customers drive the majority of orders and revenue, confirming the importance of retention and loyalty programs for this segment.
+- Monthly sales trends show clear growth phases and slower periods, and restaurant‑level growth ratios highlight which partners are scaling fastest after joining the platform.
+
 **Power Bi Dashboard:-**
 
 #### Page 1:- Revenue & Sales Overview
@@ -658,29 +683,17 @@ GROUP BY 1;
   <img src="operations_demand_analysis.jpg" width="700"/>
 </p>
 
-**Key findings:-** 
+**Key Business Insights:-**
+Key Business Insights
 
-#### Customer behavior
-- A small group of heavy users contributes a large share of total revenue, with some customers placing hundreds of orders and reaching very high lifetime value.
-- Many customers show strong activity in their first months and then slow down, and you can clearly identify customers who ordered in 2023 but became inactive in 2024.
-
-#### Restaurant performance
-- Revenue is highly concentrated in a few top restaurants in each city, while many others generate modest sales despite similar opening hours.
-- Certain restaurants suffer noticeably higher shares of undelivered or canceled orders, indicating operational or quality issues that directly impact lost revenue.
-
-#### Demand patterns
-- Orders peak in specific 2‑hour evening slots, confirming that demand is strongly time‑of‑day driven and should inform staffing and rider allocation.
-- Some dishes (for example biryanis, pizzas, and a few signature items) dominate both order volume and revenue, and several of them show clear seasonal spikes.
-- City‑level analysis shows a clear revenue hierarchy among cities, with a few markets driving most of the platform’s 2023 revenue.
-
-#### Delivery and riders
-- Average delivery times are generally within target windows, but a subset of riders consistently deliver faster than others, while a few lag behind the platform average.
-- Delivery failures cluster around specific time windows and restaurant–rider combinations, suggesting targeted process improvements could reduce cancellations.
-- Based on an 8% commission assumption, top riders earn significantly more in busy months and cities, reflecting both higher order density and their efficiency.
-
-#### Segmentation and growth
-- “Gold” customers drive the majority of orders and revenue, confirming the importance of retention and loyalty programs for this segment.
-- Monthly sales trends show clear growth phases and slower periods, and restaurant‑level growth ratios highlight which partners are scaling fastest after joining the platform.
+| # | Insight |
+|---|---------|
+| 1 | Mumbai contributes ~47% of total platform revenue |
+| 2 | Platform avg delivery time (38.85 mins) exceeds target (34.22 mins) |
+| 3 | 86.66% of deliveries are rated 3-star — quality improvement needed |
+| 4 | Cancellation ratio improved from ~10% in 2023 to 0% in 2024 |
+| 5 | High-value customers (700+ orders) spend 60% more than average |
+| 6 | Spring is the peak demand season — Paneer Butter Masala tops orders |
 
 **Conclusion:-** 
 This project shows that a Zomato‑style platform can extract rich insights from its core transactional tables using SQL alone: who the most valuable customers are, which restaurants and cities drive growth, when and what people order, and how well the delivery network performs. Your queries combine joins, CTEs, window functions, and time‑series logic to answer realistic business questions, making this a strong portfolio piece that demonstrates both data modeling and analytical thinking.

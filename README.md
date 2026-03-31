@@ -612,6 +612,11 @@ FROM year_table
 WHERE year = 2023
 GROUP BY 1;
 ```
+**Power Bi Dashboard:-**
+
+#### Page 1:- Revenue & Sales Overview
+- Provides a high-level snapshot of platform-wide financial performance.
+[Revenue & Sales Overview](https://github.com/AJJadhav29/Zomato_analysis/blob/main/)
 
 **Key findings:-** 
 

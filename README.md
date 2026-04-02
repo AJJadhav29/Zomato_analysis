@@ -696,8 +696,6 @@ Key Business Insights
 | 6 | Spring is the peak demand season — Paneer Butter Masala tops orders |
 
 **Conclusion:-** 
-## 📝 Conclusion
-
 This project demonstrates that a Zomato‑style platform can extract rich insights from its core transactional tables using SQL alone: who the most valuable customers are, which restaurants and cities drive growth, when and what people order, and how well the delivery 
 network performs. The queries combine joins, CTEs, window functions, and time‑series logic to answer realistic business questions.
 The findings are brought to life through an interactive 4-page Power BI dashboard that translates raw SQL output into clear, actionable visuals — from KPI cards and revenue trend lines to quadrant scatter plots and delivery gauge charts. Each dashboard 
